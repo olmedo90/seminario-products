@@ -1,10 +1,13 @@
 import express from 'express';
 import dotenv from "dotenv";
+import fs from "fs";
 dotenv.config();
 const app = express();
 //rutas
 app.use('/', (resquest, response) => {
-    response.send("Server on!");
+    const htmlTemplate = fs.readFileSync("./public/index.html");
+    let htmlString = htmlTemplate.toString();
+    response.status(200).send(`${htmlString}`);
 });
 
 const port = process.env.PORT || 3000;
