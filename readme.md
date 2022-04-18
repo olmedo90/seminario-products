@@ -19,4 +19,4 @@
 4. Feature WEBSITES-1004, create the about page same the figma link.
 [Figma file desing](https://www.figma.com/file/kO8cve5xeJN6YHvywIUb6u/Untitled?node-id=0%3A1)
 
-Check the code fo the feature to do the changes.
+Check the code for the feature to do the changes, all changes will be passed to a pull request (pr) and pass the code review to merging to the master branch
