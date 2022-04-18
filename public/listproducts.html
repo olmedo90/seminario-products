@@ -6,9 +6,114 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>HEY PRODUCTS SYSTEM</title>
 </head>
+<style>
+    table,td,th{
+        border: 5px solid rgba(238, 143, 0, 0.74);
+    }
+    table {
+      font-family: arial, sans-serif;
+      border-collapse: collapse;
+      width: 100%;
+      background-color: rgba(185, 144, 40, 0.404);
+      color: rgb(255, 230, 0);
+    }
+    
+    td, th {
+      text-align: center;
+      padding: 8px;
+    }
+    input{
+        margin: 15px;
+        padding: 10px;
+        width: 70%;
+        border-radius: 5px;
+    }
+    body{
+        background-image: url("https://p4.wallpaperbetter.com/wallpaper/339/854/414/barley-beer-wallpaper-preview.jpg");
+        background-size: 100%;
+    }
+    h1{
+        color: aliceblue;
+    }
+    div{
+        background-color: rgba(168, 136, 31, 0.514);
+    }
+    .producto{
+        background-color: white;
+        height: 300px;
+    }
+    .descripcion{
+        width: 30%;
+    }
+    .update{
+        background-color: rgb(211, 127, 17);
+    }
+    .delete{
+        background-color: rgb(119, 67, 0);
+    }
+    </style>
 <body>
+    //Noelia Mercedes Ortega Delgadillo
+    //Bryan Kenny Gutierrez Conde
+    //Jhaneth Alicia Castro Cabrera
+
     <b>
         lista de productos ddsf
     </b>
+    <div style="text-align: right;">
+        <label>Buscar</label>
+        <input type="text" style="width:15%">
+    </div>
+    
+    <table>
+        <tr>
+            <th>ID</th>
+            <th>Producto</th>
+            <th>Descripcion</th>
+            <th>Precio</th>
+            <th>Cantidad</th>
+            <th>Accion</th>
+        </tr>
+        <tr>
+            <th>1</th>
+            <th class="producto"><img src="products/corona.jpg" width="130px"></th>
+            <th class="descripcion">Corona es la cerveza tipo Pilsener más famosa del mundo y la de mayor distribución. Nació en México en 1925 y desde entonces ha recorrido más de 180 países.</th>
+            <th>12Bs</th>
+            <th><input type="number" style="width: 30%;"></th>
+            <th><input class="update" type="submit" value="Update" ><br><input class="delete" type="submit" value="Delete" ></th>
+        </tr>
+        <tr>
+            <th>2</th>
+            <th class="producto"><img src="products/potosina.jpeg" width="130px"></th>
+            <th class="descripcion">Corona es la cerveza tipo Pilsener más famosa del mundo y la de mayor distribución. Nació en México en 1925 y desde entonces ha recorrido más de 180 países.</th>
+            <th>10Bs</th>
+            <th><input type="number" style="width: 30%;"></th>
+            <th><input class="update" type="submit" value="Update" ><br><input class="delete" type="submit" value="Delete" ></th>
+        </tr>
+        <tr>
+            <th>3</th>
+            <th class="producto"><img src="products/pacena.png" width="130px"></th>
+            <th class="descripcion">Corona es la cerveza tipo Pilsener más famosa del mundo y la de mayor distribución. Nació en México en 1925 y desde entonces ha recorrido más de 180 países.</th>
+            <th>10Bs</th>
+            <th><input type="number" style="width: 30%;"></th>
+            <th><input class="update" type="submit" value="Update" ><br><input class="delete" type="submit" value="Delete" ></th>
+        </tr>
+        <tr>
+            <th>4</th>
+            <th class="producto"><img src="products/huari.png" width="130px"></th>
+            <th class="descripcion">Corona es la cerveza tipo Pilsener más famosa del mundo y la de mayor distribución. Nació en México en 1925 y desde entonces ha recorrido más de 180 países.</th>
+            <th>10Bs</th>
+            <th><input type="number" style="width: 30%;"></th>
+            <th><input class="update" type="submit" value="Update" ><br><input class="delete" type="submit" value="Delete" ></th>
+        </tr>
+        <tr>
+            <th>5</th>
+            <th class="producto"><img src="products/taquina.png" width="130px"></th>
+            <th class="descripcion">Corona es la cerveza tipo Pilsener más famosa del mundo y la de mayor distribución. Nació en México en 1925 y desde entonces ha recorrido más de 180 países.</th>
+            <th>10Bs</th>
+            <th><input type="number" style="width: 30%;"></th>
+            <th><input class="update" type="submit" value="Update" ><br><input class="delete" type="submit" value="Delete" ></th>
+        </tr>
+    </table>
 </body>
 </html>
