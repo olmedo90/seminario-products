@@ -20,3 +20,7 @@
 [Figma file desing](https://www.figma.com/file/kO8cve5xeJN6YHvywIUb6u/Untitled?node-id=0%3A1)
 
 Check the code for the feature to do the changes, all changes will be passed to a pull request (pr) and pass the code review to merging to the master branch
+If you work alone, you need to create a branch with you username example, in my case, my user name is Ditmar
+then, I choose the feature WEBSITES-1001, so the name of the branch I will need to create should be WEBSITES-1001-ditmar.
+If you work in a group, you have to do a similar task with the name of the group.
+
