@@ -48,6 +48,13 @@ app.get('/login', (resquest, response) => {
     response.status(200).send(`${htmlString}`);
 });
 
+app.get('/producsys', (resquest, response) => {
+    const htmlTemplate = fs.readFileSync("./public/producsys.html");
+    let htmlString = htmlTemplate.toString();
+    response.status(200).send(`${htmlString}`);
+});
+
+
 const port = process.env.PORT || 3000;
 app.listen(port, () => {
     console.log(`the server is runnning in ${port}`);

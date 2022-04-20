@@ -1,0 +1,38 @@
+.nav-link-simple{
+    text-decoration: none;
+}
+
+.nav-link-simple:hover{
+    background: lightblue;
+}
+
+.nav-link-button-one{
+    display: inline-block;
+    border: lightblue 2px solid;
+    padding: 10px 30px;
+    color: lightblue;
+    text-decoration: none;
+    float: right;
+}
+.nav-link-button{
+    display: inline-block;
+    border: lightblue 2px solid;
+    background: lightblue;
+    padding: 10px 30px;
+    color: white;
+    text-decoration: none;
+    float: right;
+}
+
+.nav-link-button:hover{
+    background: blue;
+}
+
+.nav-link-button-one:hover{
+    background: blue;
+}
+
+#title{
+    color: aqua;
+    display: inline-block;
+}
