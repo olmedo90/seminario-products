@@ -4,7 +4,7 @@
 2. Install the dependecies with the command of npm, npm install
 3. Now the last step, run the project with, npm run start.
 
-# List of tast
+# List of task
 
 1. Feature WEBSITES-1001, create the navigation system. Please see the figma
 [Figma file desing](https://www.figma.com/file/kO8cve5xeJN6YHvywIUb6u/Untitled?node-id=0%3A1)
