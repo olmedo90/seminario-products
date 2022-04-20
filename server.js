@@ -42,7 +42,11 @@ app.get('/aboutus', (resquest, response) => {
     response.status(200).send(`${htmlString}`);
 });
 
-
+app.get('/login', (resquest, response) => {
+    const htmlTemplate = fs.readFileSync("./public/login.html");
+    let htmlString = htmlTemplate.toString();
+    response.status(200).send(`${htmlString}`);
+});
 
 const port = process.env.PORT || 3000;
 app.listen(port, () => {
