@@ -1,0 +1,38 @@
+
+.header span {
+    font-family:'Courier New', Courier, monospace;
+    font-size: 26px;
+}
+.container {
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+}
+.form {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+.item_form {
+    margin-top: 20px;
+}
+.item_form span {
+    display: inline-block;
+    width: 200px;
+}
+.btn {
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+}
+.btn input {
+    background-color: #18A0FB;
+    width: 130px;
+    height: 40px;
+    color: #fff;
+    border-radius: 6px;
+    border: unset;
+}
