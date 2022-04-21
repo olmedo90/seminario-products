@@ -1,0 +1,56 @@
+
+.header span {
+    font-family: 'Commforta', 'Times New Roman', Times, serif;
+    color: rgb(255, 255, 255);
+    font-size: 50px;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+}
+.create {
+    background-color: rgb(30, 6, 116);
+    border-radius: 10px;
+    border: 10%;
+    color: white;
+}
+
+.form {
+    color: white;
+    display: flex;
+    flex-direction: column;
+}
+.container{
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+}
+.crear{
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    margin-top: 20px;
+
+}
+.crear input {
+    background-color: #06fc2f;
+    width: 130px;
+    height: 40px;
+    color: #fff;
+    border-radius: 6px;
+}
+.centro {
+    margin-top: 20px;
+}
+.centro span {
+    display: inline-block;
+    width: 200px;
+}
+
+.imagen {
+    width: 0.5px;
+    height: 0.5px;
+    float: right;
+}
